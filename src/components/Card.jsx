@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "./Banner";
 import Image from "./Image";
 import Title from "./Title";
@@ -17,7 +16,7 @@ const Card = ({
   usernameAvatar,
 }) => {
   return (
-    <div className="w-2/5 p-6 bg-white border border-black rounded-2xl sm:w-2/4  md:w-2/5 xl:h-3/5 xl:w-1/5 shadow-[10px_10px_0px_0px_rgba(0,0,0)]">
+    <div className="p-6 bg-white border border-black rounded-2xl sm:w-2/4  md:w-2/5 xl:w-1/5 shadow-[10px_10px_0px_0px_rgba(0,0,0)]">
       <Image className="w-full rounded-xl" src={image} alt={alt} />
       <Banner
         className="text-sm mt-6 mb-4 w-[82px] h-[30px] bg-[#f5d04e] flex items-center justify-center text-black font-bold rounded"

@@ -10,9 +10,10 @@ function App() {
   const description =
     "These languages are the backbone of every website, defining structure, content, and presentation.";
   const username = "Greg Hooper";
+
   return (
-    <body className="h-screen bg-[#f5d04e] font-Figtree">
-      <div className="flex items-center justify-center h-full w full">
+    <div className="h-screen bg-[#f5d04e] font-Figtree">
+      <div className="flex items-center justify-center h-full p-6 w full">
         <Card
           image={illustrationArticle}
           alt={illustrationArticleAlt}
@@ -24,7 +25,7 @@ function App() {
           usernameAvatar={userAvatar}
         />
       </div>
-    </body>
+    </div>
   );
 }
 
